@@ -18,6 +18,7 @@
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -46,7 +47,7 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
+                <a href="{{url('/')}}"" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-user-tie me-3"></i>Bsc. CS</h1>
                    
                     <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -91,7 +92,8 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                                 <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button>
+                                    
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
                             </form>
                             
                             </div>
@@ -108,7 +110,9 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                             <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
+                                
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
+                            
                                 
                             </div>
                         </div>
@@ -124,7 +128,9 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                             <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
+                                
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
+                            
                             </div>
                         </div>
                     </div>
@@ -139,7 +145,9 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                             <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
+                               
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
+                            
                             </div>
                         </div>
                     </div>
@@ -154,7 +162,9 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                             <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
+                                
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
+                            
                             </div>
                         </div>
                     </div>
@@ -170,24 +180,13 @@
                             <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
                                 @csrf
                             <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
+                                
+                                <button class="btn btn-square btn-primary mx-1" ><span class="glyphicon glyphicon-download-alt"></span></button>
+                            
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            </div>
-                            @elseif ($index == 6)
-                            <h5 class="mb-0">{{$unit->name}}</h5>
-                            <small>{{$unit->slug}}</small>
-                            <form action="{{ route('download', [$unit->slug]) }}" method="GET" >
-                                @csrf
-                            <div class="d-flex justify-content-center mt-3">
-                                <button class="btn btn-square btn-primary mx-1" >D</button></form>
-                            </div>
-                        </div>
+                   
                     </div>
                 </div>
             </div>
@@ -205,8 +204,8 @@
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     &copy; <a class="border-bottom" href="#">Past Papers</a>
                     
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com"></a>
+                    
+                  <a class="border-bottom" href="https://htmlcodex.com"></a>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">

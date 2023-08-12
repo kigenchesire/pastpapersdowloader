@@ -48,7 +48,7 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
+                <a href="{{ url ('/')}}" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-user-tie me-3"></i>Bsc. CS</h1>
                    
                     <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -58,7 +58,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="{{ url ('/')}}" class="nav-item nav-link active">Home</a>
                         <a href="#" class="nav-item nav-link">About</a>
                         <a href="#" class="nav-item nav-link">Contact</a>
                         <a href="#" class="nav-item nav-link">Links</a>
@@ -87,7 +87,7 @@
                         @if ($sem->name=='Semester 1.1')
                         
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a href="{{ url ($sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                             <div class="service-item rounded pt-3">
                                 <div class="p-4">
                                     <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>       
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         @elseif ($sem->name=='Semester 1.2')
-                        <a href="{{ url ($sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         @elseif ($sem->name=='Semester 2.1')
-                        <a href="{{ url ($sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         @elseif ($sem->name=='Semester 2.2')
-                        <a href="{{ url ( $sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         @elseif ($sem->name=='Semester 3.1')
-                        <a href="{{ url ($sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         @elseif ($sem->name=='Semester 3.2')
-                        <a href="{{ url ( $sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         @elseif ($sem->name=='Semester 4.1')
-                        <a href="{{ url ($sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                         @elseif ($sem->name=='Semester 4.2')
-                        <a href="{{ url ( $sem->slug)}}">
+                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
@@ -196,8 +196,7 @@
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">Past Papers</a>
 							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com"></a>
+							 <a class="border-bottom" href="https://htmlcodex.com"></a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
