@@ -20,6 +20,7 @@ return new class extends Migration
             $table-> foreign('semester_id')->references('id')->on('semester')->onDelete('cascade');
             $table->timestamps();
         });
+        
     }
 
     /**
