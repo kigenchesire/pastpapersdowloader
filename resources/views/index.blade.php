@@ -87,7 +87,7 @@
                         @if ($sem->name=='Semester 1.1')
                         
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a href="{{ url ($sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
+                        <a href="{{ url (pastpapers/$sem->slug)}}" style="text-decoration: none; color: cadetblue; text-align: center;">
                             <div class="service-item rounded pt-3">
                                 <div class="p-4">
                                     <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>       

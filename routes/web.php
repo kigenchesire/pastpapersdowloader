@@ -22,9 +22,9 @@ Route::get('/', function () {
 Route::get('/semester', function () {
     return view('semester');
 });
-
+Route::get('pastpapers/{semester_slug}', [SemesterController::class, 'viewUnits']);
 Route:: get ('/download/{unit_slug}', [DownloadController::class, 'FileDownLoarder',])-> name('download');  ;
-Route::get('{semester_slug}', [SemesterController::class, 'viewUnits']);
+
 
 // Route:: get ('/semester', [SemesterController::class, 'index']);
 
