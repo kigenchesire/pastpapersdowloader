@@ -92,7 +92,7 @@
                                 <div class="p-4">
                                     <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>       
                                     <h5>{{$sem->name}}</h5> 
-                                    <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                    <p>Year 1 Semester 1</p>
                                 </div>
                             </div> </a>
 
@@ -106,7 +106,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 1.2</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 1 Semester 2</p>
                             </div>
                         </div></a>
                     </div>
@@ -117,7 +117,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 2.1</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 2 Semester 1</p>
                             </div>
                         </div></a>
                     </div>
@@ -128,7 +128,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 2.2</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 2 Semester 2</p>
                             </div>
                         </div></a>
                     </div>
@@ -139,7 +139,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 3.1</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 3 Semester 1</p>
                             </div>
                         </div></a>
                     </div>
@@ -150,7 +150,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 3.2</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 3 Semester 2</p>
                             </div>
                         </div></a>
                     </div>
@@ -161,7 +161,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 4.1</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 4 Semester 1</p>
                             </div>
                         </div></a>
                     </div>
@@ -172,7 +172,7 @@
                             <div class="p-4">
                                 <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
                                 <h5>Semester 4.2</h5>
-                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                                <p>Year 4 Semester 2</p>
                             </div>
                         </div>
                     </div>
