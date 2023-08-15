@@ -57,7 +57,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => env('http://arcane-atoll-38405-e89672b8becb.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
