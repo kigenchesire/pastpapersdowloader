@@ -16,7 +16,7 @@ use App\Http\Controllers\SemesterController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index1');
 });
 
 Route::get('/semester', function () {
