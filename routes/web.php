@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/semester', function () {
-    return view('semester');
+    return view('home');
 });
 
 Route:: get ('/download/{unit_slug}', [DownloadController::class, 'FileDownLoarder',])-> name('download');  ;
