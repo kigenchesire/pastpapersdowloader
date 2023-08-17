@@ -20,6 +20,9 @@ use App\Http\Controllers\SemesterController;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/index', function () {
+    return view('index');
+});
 
 Route:: get ('/download/{unit_slug}', [DownloadController::class, 'FileDownLoarder',])-> name('download');  ;
 Route::get('/{semester_slug}', [SemesterController::class, 'viewUnits']);

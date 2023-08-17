@@ -4,7 +4,7 @@
 </div>
 <a href="#"><span class="v6_38">Links</span></a>
 <a><span class="v6_39">Links</span></a>
-<a href="#"><span class="v6_40">Home</span></a>
+<a href="{{ url ('/index')}}"><span class="v6_40">Home</span></a>
 <a href="#"><span class="v6_42">Bsc CS</span></a>
 <a href=""><span class="v6_41">Contacts</span></a>
 <a href=""><span class="v6_43">Course Semesters</span></a>
