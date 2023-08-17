@@ -15,16 +15,14 @@ use App\Http\Controllers\SemesterController;
 |
 */
 
-Route::get('/semester', function () {
-    return view('home');
-});
+
 
 Route::get('/', function () {
     return view('index');
 });
 
 Route:: get ('/download/{unit_slug}', [DownloadController::class, 'FileDownLoarder',])-> name('download');  ;
-Route::get('{semester_slug}', [SemesterController::class, 'viewUnits']);
+Route::get('/{semester_slug}', [SemesterController::class, 'viewUnits']);
 
 // Route:: get ('/semester', [SemesterController::class, 'index']);
 
