@@ -4,12 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DownloadController;
 use App\Http\Controllers\SemesterController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. The
+
 
 Route::get('/index', function () {
     return view('home');
