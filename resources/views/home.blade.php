@@ -9,9 +9,5 @@
 <a href=""><span class="v6_41">Contacts</span></a>
 <a href=""><span class="v6_43">Course Semesters</span></a>
 <div class="v6_45"></div>
-<span class="v6_46">Semester 1.1Units:</span>
-<div class="v6_47"></div><div class="v6_48"></div><span class="v6_49">Semester 1.2 Units:</span>
-<div class="v6_50"></div><div class="v6_51"></div><span class="v6_52">Semester 2.1 Units:</span>
-<div class="v6_53"></div><div class="v6_54"></div><span class="v6_55">Semester 2.2 Units:</span>
-
+<span cl
 <div class="v6_68"></div></div></body>
